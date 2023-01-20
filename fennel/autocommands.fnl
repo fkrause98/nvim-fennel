@@ -1,4 +1,4 @@
 (import-macros {: augroup!} :hibiscus.vim)
-(augroup! :fennel_compile
-	  [[BufWritePost] *.fnl :FnlCompile])
   
+(augroup! :packer
+	  [[BufWrite] init.fnl :PackerSync])

@@ -9,3 +9,5 @@
       })
 (each [option value (pairs options)]
   (set! option value))
+
+(color! "tokyonight-night")
