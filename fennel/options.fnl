@@ -6,6 +6,8 @@
 (local options 
       {
       :nu 'true :rnu 'true ;; Relative line number
+      :filetype "on"
+      :termguicolors 'true
       })
 (each [option value (pairs options)]
   (set! option value))
